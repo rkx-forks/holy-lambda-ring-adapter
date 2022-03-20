@@ -640,7 +640,7 @@
 }, {
   "name" : "fierycod.holy_lambda.agent__init"
 }, {
-  "name" : "fierycod.holy_lambda.core$entrypoint$fn__10371",
+  "name" : "fierycod.holy_lambda.core$entrypoint$fn__10375",
   "queryAllPublicConstructors" : true,
   "methods" : [ {
     "name" : "<init>",
@@ -765,6 +765,12 @@
   "name" : "java.lang.annotation.Annotation"
 }, {
   "name" : "java.lang.annotation.Retention"
+}, {
+  "name" : "java.lang.reflect.AccessibleObject",
+  "methods" : [ {
+    "name" : "canAccess",
+    "parameterTypes" : [ "java.lang.Object" ]
+  } ]
 }, {
   "name" : "java.lang.reflect.Array"
 }, {
@@ -1072,6 +1078,10 @@
   "name" : "org.apache.commons.fileupload.UploadContext"
 }, {
   "name" : "org.apache.commons.io.IOUtils"
+}, {
+  "name" : "org.msgpack.template.builder.JavassistTemplateBuilder",
+  "allPublicMethods" : true,
+  "allPublicConstructors" : true
 }, {
   "name" : "reitit.Trie"
 }, {
